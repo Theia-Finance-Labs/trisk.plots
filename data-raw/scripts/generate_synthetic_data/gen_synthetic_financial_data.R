@@ -8,7 +8,7 @@ eikon_data <- readr::read_csv(mock_filepaths$eikon_data)
 
 companies_data <- company_activities |> dplyr::distinct(company_id, ald_sector, ald_location)
 
-prewrangled_financial_data_stress_test <- STDataMGMT::prepare_financial_data(
+prewrangled_financial_data_stress_test <- trisk.datawrangle::prepare_financial_data(
   financial_data = eikon_data,
   companies_data = companies_data,
   ownership_tree = NULL,

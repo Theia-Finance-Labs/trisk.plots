@@ -8,7 +8,7 @@ vignette: >
 ---
 
 ```{r setup}
-library(stress.test.plot.report)
+library(trisk.plots)
 library(dplyr)
 library(stringr)
 library(ggplot2)

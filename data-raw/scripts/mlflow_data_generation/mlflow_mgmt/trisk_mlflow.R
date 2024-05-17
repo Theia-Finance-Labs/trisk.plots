@@ -142,7 +142,7 @@ run_trisk_mlflow <-
       # log all parameters in current run. Also logs default parameters of
       # run_trisk, so all running parameters are logged in mlflow.
       input_params <- list(...)
-      default_params <- formals(r2dii.climate.stress.test::run_trisk)
+      default_params <- formals(trisk.model::run_trisk)
       default_params <- default_params[!(names(default_params) %in% names(input_params))]
       all_params <- c(input_params, default_params)
       # log parameters name and their value
@@ -163,7 +163,7 @@ run_trisk_mlflow <-
 
       tryCatch(
         {
-          st_results_wrangled_and_checked <- r2dii.climate.stress.test::run_trisk(return_results = TRUE, ...)
+          st_results_wrangled_and_checked <- trisk.model::run_trisk(return_results = TRUE, ...)
           print("TRISK run completed")
 
 

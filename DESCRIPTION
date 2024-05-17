@@ -1,5 +1,5 @@
-Package: stress.test.plot.report
-Title: What the Package Does (One Line, Title Case)
+Package: trisk.plots
+Title: Trisk output plots to use in analysis reports
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
@@ -33,8 +33,8 @@ Imports:
     tibble,
     assertr
 Remotes:
-    2DegreesInvesting/r2dii.climate.stress.test,
-    2DegreesInvesting/STDataMGMT,
+    Theia-Finance-Labs/trisk.plots,
+    Theia-Finance-Labs/trisk.datawrangle,
     RMI-PACTA/r2dii.colours
 Suggests: 
     knitr,

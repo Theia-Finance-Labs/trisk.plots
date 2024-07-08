@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(stress.test.plot.report)
+library(trisk.plots)
 
-test_check("stress.test.plot.report")
+test_check("trisk.plots")

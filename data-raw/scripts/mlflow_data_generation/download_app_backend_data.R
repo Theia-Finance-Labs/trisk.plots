@@ -33,7 +33,7 @@ all_runs <-
 
 download_mlflow_search_result(mlflow_uri, exp_name, all_runs, mlflow_download_dir, output_filename = "crispy_output.csv")
 
-multi_crispy_data <- stress.test.plot.report::main_load_multi_crispy_data(
+multi_crispy_data <- trisk.plots::main_load_multi_crispy_data(
   crispy_outputs_dir = mlflow_download_dir,
   max_trisk_granularity = max_trisk_granularity
 )

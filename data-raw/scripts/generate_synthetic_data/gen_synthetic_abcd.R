@@ -17,10 +17,10 @@ sector_list <- c("Automotive", "Power", "Oil&Gas", "Coal", "Steel")
 km_per_vehicle <- 15000
 
 abcd_stress_test_input <-
-  STDataMGMT::prepare_abcd_data(
+  trisk.datawrangle::prepare_abcd_data(
     company_activities = company_activities,
     company_emissions = company_emissions,
-    scenarios_geographies = STDataMGMT::scenarios_geographies,
+    scenarios_geographies = trisk.datawrangle::scenarios_geographies,
     start_year = start_year,
     time_horizon = time_horizon,
     additional_year = additional_year,

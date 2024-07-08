@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(stress.test.plot.report)
+library(trisk.plots)
 ```
 
 

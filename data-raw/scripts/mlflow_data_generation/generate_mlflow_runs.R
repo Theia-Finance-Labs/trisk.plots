@@ -14,7 +14,7 @@ box::use(
   ]
 )
 
-library(r2dii.climate.stress.test)
+library(trisk.model)
 
 Sys.setenv(
   MLFLOW_PYTHON_BIN = mlflow_python_bin,
